@@ -40,13 +40,13 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(37 173 152);
+    color: red;
 }
 
 .detel{
     margin-left: 8%;
     margin-top: 15%;
-    z-index: 100;
+    
 }
 
 .detel h1{
@@ -56,7 +56,7 @@ nav ul li a:hover{
 }
 
 span{
-    color: rgb(37 173 152);
+    color: orange;
     
 }
 
@@ -110,26 +110,22 @@ span{
     font-size: 30px;
     color: #212121;
     margin-right: 20px;
+
 }
 
 .social a:hover{
     color: orange;
 }
-
-.lipo{
-    display: flex;
-
-}
 @media only screen and (max-width: 600px) {
   
-  .images{
-    position: relative;
-}
-.images img{
-    position: relative;
-    transform: none;
-}
-.shape{
-    display: none;
-}
+    .images{
+      position: relative;
   }
+  .images img{
+      position: relative;
+      transform: none;
+  }
+  .shape{
+      display: none;
+  }
+    }
