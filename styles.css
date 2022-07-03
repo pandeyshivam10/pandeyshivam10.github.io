@@ -46,6 +46,7 @@ nav ul li a:hover{
 .detel{
     margin-left: 8%;
     margin-top: 15%;
+    
 }
 
 .detel h1{
@@ -114,3 +115,16 @@ span{
 .social a:hover{
     color: orange;
 }
+@media only screen and (max-width: 600px) {
+  
+    .images{
+      position: relative;
+  }
+  .images img{
+      position: relative;
+      transform: none;
+  }
+  .shape{
+      display: none;
+  }
+    }
